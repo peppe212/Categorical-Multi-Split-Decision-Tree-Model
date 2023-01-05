@@ -1,0 +1,145 @@
+|--- feature_0 <= 2.50
+|   |--- feature_28 <= 0.50
+|   |   |--- feature_9 <= 0.50
+|   |   |   |--- feature_16 <= 0.50
+|   |   |   |   |--- feature_18 <= 0.50
+|   |   |   |   |   |--- feature_19 <= 0.50
+|   |   |   |   |   |   |--- feature_14 <= 0.50
+|   |   |   |   |   |   |   |--- feature_32 <= 0.50
+|   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |   |--- feature_32 >  0.50
+|   |   |   |   |   |   |   |   |--- feature_8 <= 0.50
+|   |   |   |   |   |   |   |   |   |--- feature_12 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- feature_5 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- feature_5 >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |   |   |   |--- feature_12 >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |   |   |--- feature_8 >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |--- feature_14 >  0.50
+|   |   |   |   |   |   |   |--- feature_8 <= 0.50
+|   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |   |--- feature_8 >  0.50
+|   |   |   |   |   |   |   |   |--- feature_31 <= 0.50
+|   |   |   |   |   |   |   |   |   |--- feature_1 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- feature_4 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- feature_4 >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |   |   |   |--- feature_1 >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |   |   |--- feature_31 >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |--- feature_19 >  0.50
+|   |   |   |   |   |   |--- feature_0 <= 1.50
+|   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |--- feature_0 >  1.50
+|   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |--- feature_18 >  0.50
+|   |   |   |   |   |--- feature_4 <= 0.50
+|   |   |   |   |   |   |--- feature_6 <= 0.50
+|   |   |   |   |   |   |   |--- feature_33 <= 0.50
+|   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |   |--- feature_33 >  0.50
+|   |   |   |   |   |   |   |   |--- feature_3 <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |   |   |--- feature_3 >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |--- feature_6 >  0.50
+|   |   |   |   |   |   |   |--- feature_33 <= 0.50
+|   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |   |--- feature_33 >  0.50
+|   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |--- feature_4 >  0.50
+|   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |--- feature_16 >  0.50
+|   |   |   |   |--- feature_26 <= 0.50
+|   |   |   |   |   |--- feature_3 <= 0.50
+|   |   |   |   |   |   |--- feature_1 <= 0.50
+|   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |--- feature_1 >  0.50
+|   |   |   |   |   |   |   |--- feature_32 <= 0.50
+|   |   |   |   |   |   |   |   |--- feature_5 <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |   |   |--- feature_5 >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |   |--- feature_32 >  0.50
+|   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |--- feature_3 >  0.50
+|   |   |   |   |   |   |--- feature_22 <= 0.50
+|   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |--- feature_22 >  0.50
+|   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |--- feature_26 >  0.50
+|   |   |   |   |   |--- feature_32 <= 0.50
+|   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |--- feature_32 >  0.50
+|   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |--- feature_9 >  0.50
+|   |   |   |--- feature_14 <= 0.50
+|   |   |   |   |--- class: false-recurrence-events
+|   |   |   |--- feature_14 >  0.50
+|   |   |   |   |--- class: recurrence-events
+|   |--- feature_28 >  0.50
+|   |   |--- feature_17 <= 0.50
+|   |   |   |--- class: recurrence-events
+|   |   |--- feature_17 >  0.50
+|   |   |   |--- class: false-recurrence-events
+|--- feature_0 >  2.50
+|   |--- feature_34 <= 0.50
+|   |   |--- feature_10 <= 0.50
+|   |   |   |--- feature_6 <= 0.50
+|   |   |   |   |--- feature_26 <= 0.50
+|   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |--- feature_26 >  0.50
+|   |   |   |   |   |--- feature_15 <= 0.50
+|   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |--- feature_15 >  0.50
+|   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |--- feature_6 >  0.50
+|   |   |   |   |--- feature_14 <= 0.50
+|   |   |   |   |   |--- feature_29 <= 0.50
+|   |   |   |   |   |   |--- feature_13 <= 0.50
+|   |   |   |   |   |   |   |--- feature_15 <= 0.50
+|   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |   |--- feature_15 >  0.50
+|   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |--- feature_13 >  0.50
+|   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |--- feature_29 >  0.50
+|   |   |   |   |   |   |--- feature_12 <= 0.50
+|   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |--- feature_12 >  0.50
+|   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |--- feature_14 >  0.50
+|   |   |   |   |   |--- class: recurrence-events
+|   |   |--- feature_10 >  0.50
+|   |   |   |--- feature_18 <= 0.50
+|   |   |   |   |--- feature_22 <= 0.50
+|   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |--- feature_22 >  0.50
+|   |   |   |   |   |--- feature_35 <= 0.50
+|   |   |   |   |   |   |--- feature_4 <= 0.50
+|   |   |   |   |   |   |   |--- feature_1 <= 0.50
+|   |   |   |   |   |   |   |   |--- feature_17 <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |   |   |--- feature_17 >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |   |--- feature_1 >  0.50
+|   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |--- feature_4 >  0.50
+|   |   |   |   |   |   |   |--- feature_1 <= 0.50
+|   |   |   |   |   |   |   |   |--- feature_15 <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |   |   |   |--- feature_15 >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |   |   |   |   |--- feature_1 >  0.50
+|   |   |   |   |   |   |   |   |--- class: false-recurrence-events
+|   |   |   |   |   |--- feature_35 >  0.50
+|   |   |   |   |   |   |--- class: recurrence-events
+|   |   |   |--- feature_18 >  0.50
+|   |   |   |   |--- class: false-recurrence-events
+|   |--- feature_34 >  0.50
+|   |   |--- class: recurrence-events

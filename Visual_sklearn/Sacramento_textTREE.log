@@ -1,0 +1,136 @@
+|--- feature_0 <= 2.50
+|   |--- feature_0 <= 1.50
+|   |   |--- feature_2 <= 891.00
+|   |   |   |--- class: Condo
+|   |   |--- feature_2 >  891.00
+|   |   |   |--- feature_23 <= 0.50
+|   |   |   |   |--- class: Residential
+|   |   |   |--- feature_23 >  0.50
+|   |   |   |   |--- class: Condo
+|   |--- feature_0 >  1.50
+|   |   |--- feature_105 <= 0.50
+|   |   |   |--- feature_2 <= 1333.50
+|   |   |   |   |--- feature_1 <= 1.50
+|   |   |   |   |   |--- feature_8 <= 0.50
+|   |   |   |   |   |   |--- feature_3 <= 49611.00
+|   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |   |--- feature_3 >  49611.00
+|   |   |   |   |   |   |   |--- feature_95 <= 0.50
+|   |   |   |   |   |   |   |   |--- feature_67 <= 0.50
+|   |   |   |   |   |   |   |   |   |--- feature_91 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 <= 62025.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 >  62025.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- feature_91 >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 805.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  805.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |   |   |   |--- feature_67 >  0.50
+|   |   |   |   |   |   |   |   |   |--- feature_3 <= 143500.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |   |   |   |   |--- feature_3 >  143500.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |   |   |--- feature_95 >  0.50
+|   |   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |--- feature_8 >  0.50
+|   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |--- feature_1 >  1.50
+|   |   |   |   |   |--- feature_5 <= 0.50
+|   |   |   |   |   |   |--- feature_7 <= 0.50
+|   |   |   |   |   |   |   |--- feature_102 <= 0.50
+|   |   |   |   |   |   |   |   |--- feature_3 <= 170875.00
+|   |   |   |   |   |   |   |   |   |--- feature_37 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 1041.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  1041.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- feature_37 >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- feature_103 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |   |   |   |   |   |--- feature_103 >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |   |   |   |--- feature_3 >  170875.00
+|   |   |   |   |   |   |   |   |   |--- feature_3 <= 345000.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |   |   |   |   |--- feature_3 >  345000.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |   |   |--- feature_102 >  0.50
+|   |   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |   |--- feature_7 >  0.50
+|   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |--- feature_5 >  0.50
+|   |   |   |   |   |   |--- class: Multi_Family
+|   |   |   |--- feature_2 >  1333.50
+|   |   |   |   |--- class: Residential
+|   |   |--- feature_105 >  0.50
+|   |   |   |--- class: Condo
+|--- feature_0 >  2.50
+|   |--- feature_67 <= 0.50
+|   |   |--- feature_84 <= 0.50
+|   |   |   |--- feature_1 <= 3.75
+|   |   |   |   |--- feature_94 <= 0.50
+|   |   |   |   |   |--- feature_106 <= 0.50
+|   |   |   |   |   |   |--- feature_7 <= 0.50
+|   |   |   |   |   |   |   |--- feature_102 <= 0.50
+|   |   |   |   |   |   |   |   |--- feature_97 <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |   |   |   |--- feature_97 >  0.50
+|   |   |   |   |   |   |   |   |   |--- feature_2 <= 1834.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |   |   |   |   |--- feature_2 >  1834.50
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 1865.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Multi_Family
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  1865.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |   |   |--- feature_102 >  0.50
+|   |   |   |   |   |   |   |   |--- feature_3 <= 256000.00
+|   |   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |   |   |   |--- feature_3 >  256000.00
+|   |   |   |   |   |   |   |   |   |--- feature_3 <= 267500.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |   |   |   |   |--- feature_3 >  267500.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |   |--- feature_7 >  0.50
+|   |   |   |   |   |   |   |--- feature_3 <= 160686.00
+|   |   |   |   |   |   |   |   |--- class: Condo
+|   |   |   |   |   |   |   |--- feature_3 >  160686.00
+|   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |--- feature_106 >  0.50
+|   |   |   |   |   |   |--- feature_2 <= 1827.50
+|   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |   |--- feature_2 >  1827.50
+|   |   |   |   |   |   |   |--- feature_3 <= 192290.00
+|   |   |   |   |   |   |   |   |--- class: Multi_Family
+|   |   |   |   |   |   |   |--- feature_3 >  192290.00
+|   |   |   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |--- feature_94 >  0.50
+|   |   |   |   |   |--- feature_2 <= 1763.50
+|   |   |   |   |   |   |--- class: Residential
+|   |   |   |   |   |--- feature_2 >  1763.50
+|   |   |   |   |   |   |--- class: Multi_Family
+|   |   |   |--- feature_1 >  3.75
+|   |   |   |   |--- feature_3 <= 278000.00
+|   |   |   |   |   |--- class: Multi_Family
+|   |   |   |   |--- feature_3 >  278000.00
+|   |   |   |   |   |--- class: Residential
+|   |   |--- feature_84 >  0.50
+|   |   |   |--- feature_2 <= 1360.00
+|   |   |   |   |--- class: Residential
+|   |   |   |--- feature_2 >  1360.00
+|   |   |   |   |--- class: Multi_Family
+|   |--- feature_67 >  0.50
+|   |   |--- feature_1 <= 2.25
+|   |   |   |--- feature_2 <= 1935.00
+|   |   |   |   |--- class: Residential
+|   |   |   |--- feature_2 >  1935.00
+|   |   |   |   |--- feature_2 <= 2136.00
+|   |   |   |   |   |--- class: Condo
+|   |   |   |   |--- feature_2 >  2136.00
+|   |   |   |   |   |--- class: Residential
+|   |   |--- feature_1 >  2.25
+|   |   |   |--- feature_2 <= 1631.00
+|   |   |   |   |--- class: Condo
+|   |   |   |--- feature_2 >  1631.00
+|   |   |   |   |--- class: Residential

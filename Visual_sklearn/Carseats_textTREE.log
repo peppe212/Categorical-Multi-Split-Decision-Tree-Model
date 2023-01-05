@@ -1,0 +1,58 @@
+|--- feature_3 <= 0.50
+|   |--- feature_4 <= 36.00
+|   |   |--- feature_2 <= 79.00
+|   |   |   |--- class: Yes
+|   |   |--- feature_2 >  79.00
+|   |   |   |--- class: No
+|   |--- feature_4 >  36.00
+|   |   |--- feature_6 <= 27.50
+|   |   |   |--- feature_6 <= 26.50
+|   |   |   |   |--- class: No
+|   |   |   |--- feature_6 >  26.50
+|   |   |   |   |--- class: Yes
+|   |   |--- feature_6 >  27.50
+|   |   |   |--- feature_9 <= 0.50
+|   |   |   |   |--- feature_2 <= 100.50
+|   |   |   |   |   |--- class: No
+|   |   |   |   |--- feature_2 >  100.50
+|   |   |   |   |   |--- feature_10 <= 0.50
+|   |   |   |   |   |   |--- class: Yes
+|   |   |   |   |   |--- feature_10 >  0.50
+|   |   |   |   |   |   |--- class: No
+|   |   |   |--- feature_9 >  0.50
+|   |   |   |   |--- feature_7 <= 10.50
+|   |   |   |   |   |--- class: Yes
+|   |   |   |   |--- feature_7 >  10.50
+|   |   |   |   |   |--- feature_6 <= 66.50
+|   |   |   |   |   |   |--- class: No
+|   |   |   |   |   |--- feature_6 >  66.50
+|   |   |   |   |   |   |--- class: Yes
+|--- feature_3 >  0.50
+|   |--- feature_3 <= 4.50
+|   |   |--- feature_0 <= 5.69
+|   |   |   |--- feature_6 <= 42.00
+|   |   |   |   |--- class: No
+|   |   |   |--- feature_6 >  42.00
+|   |   |   |   |--- feature_6 <= 58.50
+|   |   |   |   |   |--- class: Yes
+|   |   |   |   |--- feature_6 >  58.50
+|   |   |   |   |   |--- feature_4 <= 98.00
+|   |   |   |   |   |   |--- class: Yes
+|   |   |   |   |   |--- feature_4 >  98.00
+|   |   |   |   |   |   |--- class: No
+|   |   |--- feature_0 >  5.69
+|   |   |   |--- class: Yes
+|   |--- feature_3 >  4.50
+|   |   |--- feature_1 <= 149.50
+|   |   |   |--- feature_4 <= 496.50
+|   |   |   |   |--- class: Yes
+|   |   |   |--- feature_4 >  496.50
+|   |   |   |   |--- feature_5 <= 133.00
+|   |   |   |   |   |--- class: Yes
+|   |   |   |   |--- feature_5 >  133.00
+|   |   |   |   |   |--- class: No
+|   |   |--- feature_1 >  149.50
+|   |   |   |--- feature_2 <= 74.50
+|   |   |   |   |--- class: Yes
+|   |   |   |--- feature_2 >  74.50
+|   |   |   |   |--- class: No

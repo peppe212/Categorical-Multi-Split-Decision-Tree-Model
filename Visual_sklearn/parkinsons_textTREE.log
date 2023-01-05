@@ -1,0 +1,28 @@
+|--- feature_21 <= 0.13
+|   |--- feature_19 <= 0.27
+|   |   |--- class: healthy
+|   |--- feature_19 >  0.27
+|   |   |--- feature_16 <= 0.49
+|   |   |   |--- class: parkinsons
+|   |   |--- feature_16 >  0.49
+|   |   |   |--- class: healthy
+|--- feature_21 >  0.13
+|   |--- feature_19 <= 0.20
+|   |   |--- feature_13 <= 0.05
+|   |   |   |--- feature_17 <= 0.65
+|   |   |   |   |--- class: parkinsons
+|   |   |   |--- feature_17 >  0.65
+|   |   |   |   |--- class: healthy
+|   |   |--- feature_13 >  0.05
+|   |   |   |--- class: parkinsons
+|   |--- feature_19 >  0.20
+|   |   |--- feature_16 <= 0.66
+|   |   |   |--- feature_16 <= 0.39
+|   |   |   |   |--- feature_12 <= 0.01
+|   |   |   |   |   |--- class: healthy
+|   |   |   |   |--- feature_12 >  0.01
+|   |   |   |   |   |--- class: parkinsons
+|   |   |   |--- feature_16 >  0.39
+|   |   |   |   |--- class: parkinsons
+|   |   |--- feature_16 >  0.66
+|   |   |   |--- class: healthy

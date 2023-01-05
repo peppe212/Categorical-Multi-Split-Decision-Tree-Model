@@ -1,0 +1,151 @@
+|--- feature_9 <= 3.50
+|   |--- feature_2 <= 42.42
+|   |   |--- feature_13 <= 0.50
+|   |   |   |--- feature_5 <= 13.59
+|   |   |   |   |--- feature_8 <= 7.94
+|   |   |   |   |   |--- class: False
+|   |   |   |   |--- feature_8 >  7.94
+|   |   |   |   |   |--- feature_9 <= 2.50
+|   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |--- feature_9 >  2.50
+|   |   |   |   |   |   |--- class: False
+|   |   |   |--- feature_5 >  13.59
+|   |   |   |   |--- feature_1 <= 116.50
+|   |   |   |   |   |--- feature_7 <= 95.50
+|   |   |   |   |   |   |--- feature_7 <= 93.50
+|   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |   |--- feature_7 >  93.50
+|   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |--- feature_7 >  95.50
+|   |   |   |   |   |   |--- class: True
+|   |   |   |   |--- feature_1 >  116.50
+|   |   |   |   |   |--- feature_0 <= 209.75
+|   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |--- feature_0 >  209.75
+|   |   |   |   |   |   |--- class: True
+|   |   |--- feature_13 >  0.50
+|   |   |   |--- feature_2 <= 33.66
+|   |   |   |   |--- feature_6 <= 254.60
+|   |   |   |   |   |--- feature_4 <= 113.50
+|   |   |   |   |   |   |--- feature_4 <= 112.50
+|   |   |   |   |   |   |   |--- feature_7 <= 110.50
+|   |   |   |   |   |   |   |   |--- feature_1 <= 85.50
+|   |   |   |   |   |   |   |   |   |--- feature_1 <= 84.50
+|   |   |   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |   |   |   |--- feature_1 >  84.50
+|   |   |   |   |   |   |   |   |   |   |--- feature_7 <= 94.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |   |   |   |   |--- feature_7 >  94.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |   |   |   |--- feature_1 >  85.50
+|   |   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |   |--- feature_7 >  110.50
+|   |   |   |   |   |   |   |   |--- feature_7 <= 119.00
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 163.05
+|   |   |   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  163.05
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 213.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  213.30
+|   |   |   |   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |   |   |--- feature_7 >  119.00
+|   |   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |--- feature_4 >  112.50
+|   |   |   |   |   |   |   |--- feature_9 <= 2.50
+|   |   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |   |   |--- feature_9 >  2.50
+|   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |--- feature_4 >  113.50
+|   |   |   |   |   |   |--- class: False
+|   |   |   |   |--- feature_6 >  254.60
+|   |   |   |   |   |--- feature_5 <= 21.15
+|   |   |   |   |   |   |--- feature_8 <= 11.74
+|   |   |   |   |   |   |   |--- feature_2 <= 32.49
+|   |   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |   |   |--- feature_2 >  32.49
+|   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |--- feature_8 >  11.74
+|   |   |   |   |   |   |   |--- feature_7 <= 124.00
+|   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |   |--- feature_7 >  124.00
+|   |   |   |   |   |   |   |   |--- feature_0 <= 166.95
+|   |   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |   |   |--- feature_0 >  166.95
+|   |   |   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |--- feature_5 >  21.15
+|   |   |   |   |   |   |--- feature_9 <= 1.50
+|   |   |   |   |   |   |   |--- feature_3 <= 316.95
+|   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |   |--- feature_3 >  316.95
+|   |   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |   |--- feature_9 >  1.50
+|   |   |   |   |   |   |   |--- class: True
+|   |   |   |--- feature_2 >  33.66
+|   |   |   |   |--- feature_5 <= 20.89
+|   |   |   |   |   |--- feature_5 <= 11.51
+|   |   |   |   |   |   |--- feature_16 <= 0.50
+|   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |--- feature_16 >  0.50
+|   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |--- feature_5 >  11.51
+|   |   |   |   |   |   |--- feature_6 <= 165.30
+|   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |--- feature_6 >  165.30
+|   |   |   |   |   |   |   |--- feature_6 <= 170.60
+|   |   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |   |   |--- feature_6 >  170.60
+|   |   |   |   |   |   |   |   |--- feature_4 <= 123.00
+|   |   |   |   |   |   |   |   |   |--- feature_5 <= 15.55
+|   |   |   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |   |   |   |   |--- feature_5 >  15.55
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 <= 184.80
+|   |   |   |   |   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 >  184.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- feature_4 >  123.00
+|   |   |   |   |   |   |   |   |   |--- feature_5 <= 16.34
+|   |   |   |   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |   |   |   |   |--- feature_5 >  16.34
+|   |   |   |   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |--- feature_5 >  20.89
+|   |   |   |   |   |--- feature_6 <= 181.75
+|   |   |   |   |   |   |--- feature_5 <= 21.02
+|   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |   |--- feature_5 >  21.02
+|   |   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |--- feature_6 >  181.75
+|   |   |   |   |   |   |--- feature_16 <= 0.50
+|   |   |   |   |   |   |   |--- class: True
+|   |   |   |   |   |   |--- feature_16 >  0.50
+|   |   |   |   |   |   |   |--- class: False
+|   |--- feature_2 >  42.42
+|   |   |--- feature_3 <= 166.80
+|   |   |   |--- feature_5 <= 11.95
+|   |   |   |   |--- class: True
+|   |   |   |--- feature_5 >  11.95
+|   |   |   |   |--- class: False
+|   |   |--- feature_3 >  166.80
+|   |   |   |--- feature_7 <= 43.50
+|   |   |   |   |--- class: False
+|   |   |   |--- feature_7 >  43.50
+|   |   |   |   |--- feature_16 <= 0.50
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- feature_16 >  0.50
+|   |   |   |   |   |--- feature_5 <= 17.21
+|   |   |   |   |   |   |--- class: False
+|   |   |   |   |   |--- feature_5 >  17.21
+|   |   |   |   |   |   |--- class: True
+|--- feature_9 >  3.50
+|   |--- feature_0 <= 198.60
+|   |   |--- class: True
+|   |--- feature_0 >  198.60
+|   |   |--- feature_2 <= 39.72
+|   |   |   |--- feature_3 <= 148.90
+|   |   |   |   |--- class: True
+|   |   |   |--- feature_3 >  148.90
+|   |   |   |   |--- class: False
+|   |   |--- feature_2 >  39.72
+|   |   |   |--- feature_3 <= 189.55
+|   |   |   |   |--- class: False
+|   |   |   |--- feature_3 >  189.55
+|   |   |   |   |--- class: True

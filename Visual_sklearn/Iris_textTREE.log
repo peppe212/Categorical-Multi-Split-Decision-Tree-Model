@@ -1,0 +1,28 @@
+|--- feature_3 <= 0.80
+|   |--- class: Iris-setosa
+|--- feature_3 >  0.80
+|   |--- feature_3 <= 1.75
+|   |   |--- feature_2 <= 5.35
+|   |   |   |--- feature_3 <= 1.65
+|   |   |   |   |--- feature_2 <= 4.95
+|   |   |   |   |   |--- class: Iris-versicolor
+|   |   |   |   |--- feature_2 >  4.95
+|   |   |   |   |   |--- feature_2 <= 5.05
+|   |   |   |   |   |   |--- class: Iris-virginica
+|   |   |   |   |   |--- feature_2 >  5.05
+|   |   |   |   |   |   |--- class: Iris-versicolor
+|   |   |   |--- feature_3 >  1.65
+|   |   |   |   |--- feature_2 <= 4.75
+|   |   |   |   |   |--- class: Iris-virginica
+|   |   |   |   |--- feature_2 >  4.75
+|   |   |   |   |   |--- class: Iris-versicolor
+|   |   |--- feature_2 >  5.35
+|   |   |   |--- class: Iris-virginica
+|   |--- feature_3 >  1.75
+|   |   |--- feature_2 <= 4.90
+|   |   |   |--- feature_1 <= 3.10
+|   |   |   |   |--- class: Iris-virginica
+|   |   |   |--- feature_1 >  3.10
+|   |   |   |   |--- class: Iris-versicolor
+|   |   |--- feature_2 >  4.90
+|   |   |   |--- class: Iris-virginica

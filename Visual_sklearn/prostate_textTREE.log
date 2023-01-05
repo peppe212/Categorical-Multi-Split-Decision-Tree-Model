@@ -1,0 +1,19 @@
+|--- feature_4 <= 1.79
+|   |--- feature_6 <= 2.99
+|   |   |--- class: no
+|   |--- feature_6 >  2.99
+|   |   |--- feature_6 <= 3.28
+|   |   |   |--- class: si
+|   |   |--- feature_6 >  3.28
+|   |   |   |--- feature_6 <= 4.08
+|   |   |   |   |--- class: no
+|   |   |   |--- feature_6 >  4.08
+|   |   |   |   |--- class: si
+|--- feature_4 >  1.79
+|   |--- feature_2 <= 60.00
+|   |   |--- feature_4 <= 2.40
+|   |   |   |--- class: no
+|   |   |--- feature_4 >  2.40
+|   |   |   |--- class: si
+|   |--- feature_2 >  60.00
+|   |   |--- class: si
