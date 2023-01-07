@@ -382,7 +382,7 @@ def graphic_tree_visualization(clf, file_name, X_train, y_train):
 def main():
     # TESTIAMO L'ALBERO DI SKLEARN
     folder_name = 'Datasets/'
-    file_name = 'churn.csv'
+    file_name = 'Auto.csv'
     # qui va inserito il nome della colonna di classificazione (la variabile dipendente Y)
     class_name = 'class'  # il nome di default è class
 

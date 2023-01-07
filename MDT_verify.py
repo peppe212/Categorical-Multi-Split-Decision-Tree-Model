@@ -217,7 +217,7 @@ def main():
     end_time_measure = time.time()
     elapsed_test_time = end_time_measure - start_time_measure
     if elapsed_test_time > 60:
-        print("il test è durato ", elapsed_test_time / 60, "minuti")
+        print("il test è durato", elapsed_test_time / 60, "minuti")
     else:
         print("il test è durato", elapsed_test_time, "secondi")
     return

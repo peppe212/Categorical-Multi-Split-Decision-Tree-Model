@@ -566,13 +566,13 @@ def initial_infos(file):
 def settings() -> tuple:
     # selezionare il file .csv contenente il dataset
     dataset_folder_name = 'Datasets/'
-    dataset_file_name = 'Iris.csv'
+    dataset_file_name = 'HouseVotes84.csv'
 
     # qui va inserito il nome della colonna di classificazione (la variabile dipendente Y)
     class_name = 'class'  # il nome di default è class
 
     # IPER-PARAMETRI utili per effettuare il PRUNING DELL'ALBERO
-    max_depth = 500
+    max_depth = 50
     min_sample_split = 2
     min_sample_leaf = 1
 
@@ -633,7 +633,7 @@ def main():
         print("Il training dell'albero è durato ", elapsed_time, "millisecondi")
 
     # Invoco il metodo che mi va a stampare l'albero di decisione
-    tree.displayDT(tree.root, file, 4)
+    tree.displayDT(tree.root, file, 3)
 
     # FASE DI TEST AND PREDICT, da qui vediamo come generalizza l'albero
     y_pred_list = tree.predict(X_test, y_test)  # lista contenente le predizioni

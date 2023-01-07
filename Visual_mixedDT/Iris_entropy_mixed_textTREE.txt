@@ -4,8 +4,9 @@ L'albero di decisione è stato istanziato con i seguenti parametri:
 MODALITÀ = classic 
 CRITERIO = entropy 
 SOGLIA_DI_TAGLIO = 100000 
+BINS = 20 
 
-Gli iper-parametri per il pre-pruning dell'albero sono:
+Gli iper-parametri per il pruning dell'albero sono:
 MAX_DEPTH = 50 
 MIN_SAMPLE_SPLIT = 2 
 MIN_SAMPLE_LEAF = 1 
