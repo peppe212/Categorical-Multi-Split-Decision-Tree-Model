@@ -1,0 +1,46 @@
+Il file 'Datasets/Carseats.csv' è stato letto con successo!
+
+L'albero di decisione è stato istanziato con i seguenti parametri:
+MODALITÀ = classic 
+CRITERIO = entropy 
+
+Gli iper-parametri per il pruning dell'albero sono:
+MAX_DEPTH = 50 
+MIN_SAMPLE_SPLIT = 2 
+MIN_SAMPLE_LEAF = 1 
+
+Root at depth:0 with Split Condition: |Advertising <= 0.0| with info_gain = 0.4835479381702519
+depth:1|----- Split Condition: |Population <= 199.0| with info_gain = 0.16302898613167927
+depth:2|---------- Split Condition: |Income <= 35.0| with info_gain = 0.13022093318685868
+depth:3|--------------- if Income <= 35.0 == yes --> Classification: No
+depth:3|--------------- Split Condition: |Income <= 80.0| with info_gain = 0.28837766074590343
+depth:4|-------------------- Split Condition: |CompPrice <= 130.0| with info_gain = 0.4591479170272448
+depth:5|------------------------- Split Condition: |CompPrice <= 114.0| with info_gain = 0.9182958340544896
+depth:6|------------------------------- if CompPrice <= 114.0 == yes --> Classification: Yes
+depth:6|------------------------------- if CompPrice <= 114.0 == no --> Classification: No
+depth:5|------------------------- if CompPrice <= 130.0 == no --> Classification: Yes
+depth:4|-------------------- Split Condition: |Population <= 139.0| with info_gain = 0.24715018363696709
+depth:5|------------------------- if Population <= 139.0 == yes --> Classification: No
+depth:5|------------------------- Split Condition: |CompPrice <= 121.0| with info_gain = 1.0
+depth:6|------------------------------- if CompPrice <= 121.0 == yes --> Classification: No
+depth:6|------------------------------- if CompPrice <= 121.0 == no --> Classification: Yes
+depth:2|---------- if Population <= 199.0 == no --> Classification: No
+depth:1|----- Split Condition: |Sales <= 5.68| with info_gain = 0.08535523026436848
+depth:2|---------- Split Condition: |Advertising <= 6.0| with info_gain = 0.2635287583941467
+depth:3|--------------- Split Condition: |Age <= 42.0| with info_gain = 0.38024081494414785
+depth:4|-------------------- if Age <= 42.0 == yes --> Classification: No
+depth:4|-------------------- Split Condition: |CompPrice <= 122.0| with info_gain = 0.31127812445913283
+depth:5|------------------------- Split Condition: |Income <= 71.0| with info_gain = 0.4591479170272448
+depth:6|------------------------------- if Income <= 71.0 == yes --> Classification: No
+depth:6|------------------------------- Split Condition: |CompPrice <= 107.0| with info_gain = 0.8112781244591328
+depth:7|------------------------------------ if CompPrice <= 107.0 == yes --> Classification: No
+depth:7|------------------------------------ if CompPrice <= 107.0 == no --> Classification: Yes
+depth:5|------------------------- if CompPrice <= 122.0 == no --> Classification: Yes
+depth:3|--------------- if Advertising <= 6.0 == no --> Classification: Yes
+depth:2|---------- Split Condition: |CompPrice <= 149.0| with info_gain = 0.04726899157311977
+depth:3|--------------- if CompPrice <= 149.0 == yes --> Classification: Yes
+depth:3|--------------- Split Condition: |CompPrice <= 150.0| with info_gain = 0.7219280948873623
+depth:4|-------------------- if CompPrice <= 150.0 == yes --> Classification: No
+depth:4|-------------------- if CompPrice <= 150.0 == no --> Classification: Yes
+accuracy_score = 0.8387096774193549
+f1_score = 0.8363406641133967

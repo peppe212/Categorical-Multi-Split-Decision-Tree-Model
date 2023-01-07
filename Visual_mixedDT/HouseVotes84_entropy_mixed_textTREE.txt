@@ -1,0 +1,62 @@
+Il file 'Datasets/HouseVotes84.csv' è stato letto con successo!
+
+L'albero di decisione è stato istanziato con i seguenti parametri:
+MODALITÀ = classic 
+CRITERIO = entropy 
+
+Gli iper-parametri per il pruning dell'albero sono:
+MAX_DEPTH = 50 
+MIN_SAMPLE_SPLIT = 2 
+MIN_SAMPLE_LEAF = 1 
+
+Root at depth:0 with Split Condition: |V4| with info_gain = 0.7362678962036981
+depth:1|----- Split Condition: |V3| with info_gain = 0.020511557926377252
+depth:2|---------- Split Condition: |V11| with info_gain = 0.07843322598724561
+depth:3|--------------- Split Condition: |V9| with info_gain = 0.19811742113040343
+depth:4|-------------------- Split Condition: |V13| with info_gain = 0.9182958340544896
+depth:5|------------------------- if V13 == n --> Classification: 1
+depth:5|------------------------- if V13 == y --> Classification: 0
+depth:4|-------------------- if V9 == y --> Classification: 0
+depth:3|--------------- if V11 == y --> Classification: 0
+depth:2|---------- if V3 == y --> Classification: 0
+depth:1|----- Split Condition: |V11| with info_gain = 0.1414928204163598
+depth:2|---------- Split Condition: |V3| with info_gain = 0.02947168495365312
+depth:3|--------------- if V3 == n --> Classification: 1
+depth:3|--------------- Split Condition: |V10| with info_gain = 0.13701850183231928
+depth:4|-------------------- Split Condition: |V7| with info_gain = 0.8112781244591328
+depth:5|------------------------- if V7 == n --> Classification: 0
+depth:5|------------------------- if V7 == y --> Classification: 1
+depth:4|-------------------- if V10 == y --> Classification: 1
+depth:2|---------- Split Condition: |V12| with info_gain = 0.24143657572943922
+depth:3|--------------- Split Condition: |V6| with info_gain = 0.2810361125534235
+depth:4|-------------------- if V6 == n --> Classification: 1
+depth:4|-------------------- Split Condition: |V3| with info_gain = 0.19920350542916282
+depth:5|------------------------- Split Condition: |V1| with info_gain = 0.2516291673878229
+depth:6|------------------------------- if V1 == n --> Classification: 0
+depth:6|------------------------------- Split Condition: |V2| with info_gain = 0.0
+depth:7|------------------------------------ Split Condition: |V5| with info_gain = 0.0
+depth:8|----------------------------------------- Split Condition: |V7| with info_gain = 0.0
+depth:9|---------------------------------------------- Split Condition: |V8| with info_gain = 0.0
+depth:10|--------------------------------------------------- Split Condition: |V9| with info_gain = 0.0
+depth:11|--------------------------------------------------------- Split Condition: |V10| with info_gain = 0.0
+depth:12|-------------------------------------------------------------- Split Condition: |V13| with info_gain = 0.0
+depth:13|------------------------------------------------------------------- Split Condition: |V14| with info_gain = 0.0
+depth:14|------------------------------------------------------------------------ Split Condition: |V15| with info_gain = 0.0
+depth:15|----------------------------------------------------------------------------- Split Condition: |V16| with info_gain = 0.0
+depth:16|----------------------------------------------------------------------------------- if V16 == y --> Classification: 0
+depth:5|------------------------- if V3 == y --> Classification: 0
+depth:3|--------------- Split Condition: |V3| with info_gain = 0.1683076122818743
+depth:4|-------------------- Split Condition: |V2| with info_gain = 0.07931148461214166
+depth:5|------------------------- Split Condition: |V10| with info_gain = 0.19811742113040343
+depth:6|------------------------------- Split Condition: |V1| with info_gain = 0.2516291673878229
+depth:7|------------------------------------ Split Condition: |V16| with info_gain = 1.0
+depth:8|----------------------------------------- if V16 == n --> Classification: 0
+depth:8|----------------------------------------- if V16 == y --> Classification: 1
+depth:7|------------------------------------ if V1 == y --> Classification: 1
+depth:6|------------------------------- if V10 == y --> Classification: 1
+depth:5|------------------------- if V2 == y --> Classification: 1
+depth:4|-------------------- Split Condition: |V7| with info_gain = 1.0
+depth:5|------------------------- if V7 == n --> Classification: 0
+depth:5|------------------------- if V7 == y --> Classification: 1
+accuracy_score = 0.9513888888888888
+f1_score = 0.951465093411996

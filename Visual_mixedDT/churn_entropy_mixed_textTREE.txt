@@ -1,0 +1,115 @@
+Il file 'Datasets/churn.csv' è stato letto con successo!
+
+L'albero di decisione è stato istanziato con i seguenti parametri:
+MODALITÀ = classic 
+CRITERIO = entropy 
+SOGLIA_DI_TAGLIO = 100000 
+BINS = 20 
+
+Gli iper-parametri per il pruning dell'albero sono:
+MAX_DEPTH = 50 
+MIN_SAMPLE_SPLIT = 2 
+MIN_SAMPLE_LEAF = 1 
+
+Root at depth:0 with Split Condition: |customer_service_calls <= 3.0| with info_gain = 0.11803051895467886
+depth:1|----- Split Condition: |total_day_minutes <= 248.9| with info_gain = 0.16311040150447143
+depth:2|---------- Split Condition: |international_plan| with info_gain = 0.12013811128285656
+depth:3|--------------- Split Condition: |total_day_minutes <= 164.1| with info_gain = 0.043244784811306336
+depth:4|-------------------- Split Condition: |total_night_calls <= 108.0| with info_gain = 0.04118379950253892
+depth:5|------------------------- Split Condition: |total_night_minutes <= 248.5| with info_gain = 0.05728935490453929
+depth:6|------------------------------- if total_night_minutes <= 248.5 == yes --> Classification: False
+depth:6|------------------------------- Split Condition: |total_night_calls <= 78.0| with info_gain = 0.6500224216483541
+depth:7|------------------------------------ if total_night_calls <= 78.0 == yes --> Classification: True
+depth:7|------------------------------------ if total_night_calls <= 78.0 == no --> Classification: False
+depth:5|------------------------- Split Condition: |total_night_calls <= 117.0| with info_gain = 0.2336231943901877
+depth:6|------------------------------- Split Condition: |total_night_minutes <= 247.6| with info_gain = 0.24593965835004505
+depth:7|------------------------------------ Split Condition: |total_eve_minutes <= 187.3| with info_gain = 0.40400975732485983
+depth:8|----------------------------------------- Split Condition: |total_eve_calls <= 110.0| with info_gain = 0.9709505944546686
+depth:9|---------------------------------------------- if total_eve_calls <= 110.0 == yes --> Classification: True
+depth:9|---------------------------------------------- if total_eve_calls <= 110.0 == no --> Classification: False
+depth:8|----------------------------------------- if total_eve_minutes <= 187.3 == no --> Classification: False
+depth:7|------------------------------------ if total_night_minutes <= 247.6 == no --> Classification: True
+depth:6|------------------------------- if total_night_calls <= 117.0 == no --> Classification: False
+depth:4|-------------------- Split Condition: |total_eve_minutes <= 244.9| with info_gain = 0.05245284131261263
+depth:5|------------------------- Split Condition: |total_night_minutes <= 165.7| with info_gain = 0.04907492791765311
+depth:6|------------------------------- Split Condition: |total_day_calls <= 69.0| with info_gain = 0.12389599132270698
+depth:7|------------------------------------ Split Condition: |area_code| with info_gain = 0.9182958340544896
+depth:8|----------------------------------------- if area_code == 4-0-8 --> Classification: True
+depth:8|----------------------------------------- if area_code == 4-1-5 --> Classification: False
+depth:8|----------------------------------------- if area_code == 5-1-0 --> Classification: False
+depth:7|------------------------------------ if total_day_calls <= 69.0 == no --> Classification: False
+depth:6|------------------------------- Split Condition: |total_eve_minutes <= 181.2| with info_gain = 0.054714992932159534
+depth:7|------------------------------------ Split Condition: |total_night_calls <= 84.0| with info_gain = 0.16207335113836635
+depth:8|----------------------------------------- Split Condition: |total_day_calls <= 89.0| with info_gain = 0.46956521111470695
+depth:9|---------------------------------------------- if total_day_calls <= 89.0 == yes --> Classification: False
+depth:9|---------------------------------------------- Split Condition: |area_code| with info_gain = 0.9182958340544896
+depth:10|--------------------------------------------------- if area_code == 4-0-8 --> Classification: True
+depth:10|--------------------------------------------------- if area_code == 4-1-5 --> Classification: True
+depth:10|--------------------------------------------------- if area_code == 5-1-0 --> Classification: False
+depth:8|----------------------------------------- if total_night_calls <= 84.0 == no --> Classification: False
+depth:7|------------------------------------ Split Condition: |total_day_minutes <= 167.3| with info_gain = 0.13000499605046845
+depth:8|----------------------------------------- if total_day_minutes <= 167.3 == yes --> Classification: True
+depth:8|----------------------------------------- Split Condition: |total_night_minutes <= 167.2| with info_gain = 0.10670848867904914
+depth:9|---------------------------------------------- if total_night_minutes <= 167.2 == yes --> Classification: True
+depth:9|---------------------------------------------- Split Condition: |total_eve_minutes <= 190.9| with info_gain = 0.1156851521791652
+depth:10|--------------------------------------------------- Split Condition: |total_night_minutes <= 258.8| with info_gain = 0.6099865470109875
+depth:11|--------------------------------------------------------- if total_night_minutes <= 258.8 == yes --> Classification: True
+depth:11|--------------------------------------------------------- Split Condition: |total_day_calls <= 92.0| with info_gain = 0.6500224216483541
+depth:12|-------------------------------------------------------------- if total_day_calls <= 92.0 == yes --> Classification: True
+depth:12|-------------------------------------------------------------- if total_day_calls <= 92.0 == no --> Classification: False
+depth:10|--------------------------------------------------- Split Condition: |total_night_minutes <= 264.2| with info_gain = 0.1265052735030292
+depth:11|--------------------------------------------------------- Split Condition: |voice_mail_plan| with info_gain = 0.12671123445319482
+depth:12|-------------------------------------------------------------- if voice_mail_plan == no --> Classification: False
+depth:12|-------------------------------------------------------------- Split Condition: |customer_service_calls <= 1.0| with info_gain = 0.45810589515712374
+depth:13|------------------------------------------------------------------- if customer_service_calls <= 1.0 == yes --> Classification: False
+depth:13|------------------------------------------------------------------- Split Condition: |total_day_calls <= 71.0| with info_gain = 0.9182958340544896
+depth:14|------------------------------------------------------------------------ if total_day_calls <= 71.0 == yes --> Classification: False
+depth:14|------------------------------------------------------------------------ if total_day_calls <= 71.0 == no --> Classification: True
+depth:11|--------------------------------------------------------- if total_night_minutes <= 264.2 == no --> Classification: True
+depth:5|------------------------- Split Condition: |total_day_calls <= 109.0| with info_gain = 0.19555334819207626
+depth:6|------------------------------- Split Condition: |total_day_minutes <= 230.7| with info_gain = 0.144486759845465
+depth:7|------------------------------------ Split Condition: |area_code| with info_gain = 0.2385532506170256
+depth:8|----------------------------------------- Split Condition: |total_day_calls <= 83.0| with info_gain = 1.0
+depth:9|---------------------------------------------- if total_day_calls <= 83.0 == yes --> Classification: False
+depth:9|---------------------------------------------- if total_day_calls <= 83.0 == no --> Classification: True
+depth:8|----------------------------------------- if area_code == 4-1-5 --> Classification: False
+depth:8|----------------------------------------- Split Condition: |total_day_calls <= 100.0| with info_gain = 0.9709505944546686
+depth:9|---------------------------------------------- if total_day_calls <= 100.0 == yes --> Classification: True
+depth:9|---------------------------------------------- if total_day_calls <= 100.0 == no --> Classification: False
+depth:7|------------------------------------ if total_day_minutes <= 230.7 == no --> Classification: True
+depth:6|------------------------------- if total_day_calls <= 109.0 == no --> Classification: True
+depth:3|--------------- Split Condition: |total_eve_minutes <= 192.9| with info_gain = 0.18850340411986455
+depth:4|-------------------- Split Condition: |total_eve_calls <= 105.0| with info_gain = 0.4188212310720749
+depth:5|------------------------- Split Condition: |total_eve_calls <= 91.0| with info_gain = 0.2183875773279127
+depth:6|------------------------------- Split Condition: |total_eve_minutes <= 171.7| with info_gain = 0.5216406363433185
+depth:7|------------------------------------ Split Condition: |total_day_calls <= 42.0| with info_gain = 0.8112781244591328
+depth:8|----------------------------------------- if total_day_calls <= 42.0 == yes --> Classification: True
+depth:8|----------------------------------------- if total_day_calls <= 42.0 == no --> Classification: False
+depth:7|------------------------------------ if total_eve_minutes <= 171.7 == no --> Classification: True
+depth:6|------------------------------- if total_eve_calls <= 91.0 == no --> Classification: True
+depth:5|------------------------- if total_eve_calls <= 105.0 == no --> Classification: False
+depth:4|-------------------- Split Condition: |area_code| with info_gain = 0.13447053550223068
+depth:5|------------------------- if area_code == 4-0-8 --> Classification: True
+depth:5|------------------------- if area_code == 4-1-5 --> Classification: True
+depth:5|------------------------- Split Condition: |total_day_calls <= 103.0| with info_gain = 0.8112781244591328
+depth:6|------------------------------- if total_day_calls <= 103.0 == yes --> Classification: True
+depth:6|------------------------------- if total_day_calls <= 103.0 == no --> Classification: False
+depth:2|---------- Split Condition: |total_eve_minutes <= 189.7| with info_gain = 0.26825266674963044
+depth:3|--------------- Split Condition: |total_day_calls <= 109.0| with info_gain = 0.4040097573248599
+depth:4|-------------------- Split Condition: |total_night_calls <= 63.0| with info_gain = 0.8112781244591328
+depth:5|------------------------- if total_night_calls <= 63.0 == yes --> Classification: False
+depth:5|------------------------- if total_night_calls <= 63.0 == no --> Classification: True
+depth:4|-------------------- if total_day_calls <= 109.0 == no --> Classification: False
+depth:3|--------------- if total_eve_minutes <= 189.7 == no --> Classification: True
+depth:1|----- Split Condition: |total_day_minutes <= 193.3| with info_gain = 0.22556776007792606
+depth:2|---------- if total_day_minutes <= 193.3 == yes --> Classification: True
+depth:2|---------- Split Condition: |area_code| with info_gain = 0.3758796451508134
+depth:3|--------------- Split Condition: |total_day_calls <= 99.0| with info_gain = 0.9709505944546686
+depth:4|-------------------- if total_day_calls <= 99.0 == yes --> Classification: True
+depth:4|-------------------- if total_day_calls <= 99.0 == no --> Classification: False
+depth:3|--------------- if area_code == 4-1-5 --> Classification: True
+depth:3|--------------- Split Condition: |international_plan| with info_gain = 0.9182958340544896
+depth:4|-------------------- if international_plan == no --> Classification: False
+depth:4|-------------------- if international_plan == yes --> Classification: True
+accuracy_score = 0.7636363636363637
+f1_score = 0.7663007021529771

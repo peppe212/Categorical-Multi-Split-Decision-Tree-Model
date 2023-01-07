@@ -1,0 +1,84 @@
+Il file 'Datasets/Auto.csv' è stato letto con successo!
+
+L'albero di decisione è stato istanziato con i seguenti parametri:
+MODALITÀ = classic 
+CRITERIO = entropy 
+SOGLIA_DI_TAGLIO = 100000 
+BINS = 20 
+
+Gli iper-parametri per il pruning dell'albero sono:
+MAX_DEPTH = 50 
+MIN_SAMPLE_SPLIT = 2 
+MIN_SAMPLE_LEAF = 1 
+
+Root at depth:0 with Split Condition: |displacement <= 134.0| with info_gain = 0.4523089237052629
+depth:1|----- Split Condition: |displacement <= 97.0| with info_gain = 0.10984931347937255
+depth:2|---------- Split Condition: |acceleration <= 19.4| with info_gain = 0.1824148916211723
+depth:3|--------------- Split Condition: |acceleration <= 15.8| with info_gain = 0.2365066681257577
+depth:4|-------------------- Split Condition: |horsepower <= 78.0| with info_gain = 0.31935364060504967
+depth:5|------------------------- Split Condition: |horsepower <= 67.0| with info_gain = 0.5281237160028587
+depth:6|------------------------------- Split Condition: |weight <= 1963.0| with info_gain = 0.8112781244591328
+depth:7|------------------------------------ if weight <= 1963.0 == yes --> Classification: 2
+depth:7|------------------------------------ if weight <= 1963.0 == no --> Classification: 3
+depth:6|------------------------------- Split Condition: |year <= 74.0| with info_gain = 0.1935068433729344
+depth:7|------------------------------------ Split Condition: |mpg <= 26.0| with info_gain = 0.9182958340544896
+depth:8|----------------------------------------- if mpg <= 26.0 == yes --> Classification: 2
+depth:8|----------------------------------------- if mpg <= 26.0 == no --> Classification: 1
+depth:7|------------------------------------ if year <= 74.0 == no --> Classification: 2
+depth:5|------------------------- if horsepower <= 78.0 == no --> Classification: 3
+depth:4|-------------------- Split Condition: |year <= 72.0| with info_gain = 0.13637655571257923
+depth:5|------------------------- Split Condition: |mpg <= 27.0| with info_gain = 1.0
+depth:6|------------------------------- if mpg <= 27.0 == yes --> Classification: 2
+depth:6|------------------------------- if mpg <= 27.0 == no --> Classification: 3
+depth:5|------------------------- Split Condition: |horsepower <= 58.0| with info_gain = 0.10269042078317098
+depth:6|------------------------------- Split Condition: |horsepower <= 53.0| with info_gain = 0.3219280948873623
+depth:7|------------------------------------ if horsepower <= 53.0 == yes --> Classification: 3
+depth:7|------------------------------------ Split Condition: |weight <= 1755.0| with info_gain = 1.0
+depth:8|----------------------------------------- if weight <= 1755.0 == yes --> Classification: 3
+depth:8|----------------------------------------- if weight <= 1755.0 == no --> Classification: 2
+depth:6|------------------------------- if horsepower <= 58.0 == no --> Classification: 3
+depth:3|--------------- Split Condition: |horsepower <= 49.0| with info_gain = 0.3166890883150208
+depth:4|-------------------- if horsepower <= 49.0 == yes --> Classification: 2
+depth:4|-------------------- Split Condition: |weight <= 1955.0| with info_gain = 1.0
+depth:5|------------------------- if weight <= 1955.0 == yes --> Classification: 1
+depth:5|------------------------- if weight <= 1955.0 == no --> Classification: 2
+depth:2|---------- Split Condition: |horsepower <= 86.0| with info_gain = 0.24204475612866894
+depth:3|--------------- Split Condition: |horsepower <= 76.0| with info_gain = 0.28807723240164673
+depth:4|-------------------- Split Condition: |horsepower <= 65.0| with info_gain = 0.6262041495944596
+depth:5|------------------------- if horsepower <= 65.0 == yes --> Classification: 1
+depth:5|------------------------- Split Condition: |mpg <= 34.0| with info_gain = 0.5163524991185351
+depth:6|------------------------------- Split Condition: |acceleration <= 14.2| with info_gain = 0.7219280948873623
+depth:7|------------------------------------ if acceleration <= 14.2 == yes --> Classification: 2
+depth:7|------------------------------------ if acceleration <= 14.2 == no --> Classification: 3
+depth:6|------------------------------- Split Condition: |year <= 79.0| with info_gain = 0.8112781244591328
+depth:7|------------------------------------ if year <= 79.0 == yes --> Classification: 1
+depth:7|------------------------------------ if year <= 79.0 == no --> Classification: 2
+depth:4|-------------------- Split Condition: |year <= 76.0| with info_gain = 0.15462496545057786
+depth:5|------------------------- Split Condition: |year <= 73.0| with info_gain = 0.863120568566631
+depth:6|------------------------------- if year <= 73.0 == yes --> Classification: 1
+depth:6|------------------------------- if year <= 73.0 == no --> Classification: 2
+depth:5|------------------------- if year <= 76.0 == no --> Classification: 1
+depth:3|--------------- Split Condition: |weight <= 2489.0| with info_gain = 0.30697090793607007
+depth:4|-------------------- Split Condition: |displacement <= 104.0| with info_gain = 0.40746777143542
+depth:5|------------------------- if displacement <= 104.0 == yes --> Classification: 2
+depth:5|------------------------- Split Condition: |horsepower <= 97.0| with info_gain = 0.43949698692151334
+depth:6|------------------------------- Split Condition: |acceleration <= 16.5| with info_gain = 0.4689955935892812
+depth:7|------------------------------------ if acceleration <= 16.5 == yes --> Classification: 3
+depth:7|------------------------------------ if acceleration <= 16.5 == no --> Classification: 1
+depth:6|------------------------------- if horsepower <= 97.0 == no --> Classification: 2
+depth:4|-------------------- Split Condition: |year <= 78.0| with info_gain = 0.40746777143542
+depth:5|------------------------- if year <= 78.0 == yes --> Classification: 2
+depth:5|------------------------- Split Condition: |horsepower <= 88.0| with info_gain = 0.9182958340544896
+depth:6|------------------------------- if horsepower <= 88.0 == yes --> Classification: 2
+depth:6|------------------------------- if horsepower <= 88.0 == no --> Classification: 3
+depth:1|----- Split Condition: |displacement <= 183.0| with info_gain = 0.15054456563238022
+depth:2|---------- Split Condition: |weight <= 3003.0| with info_gain = 0.6098403047164005
+depth:3|--------------- Split Condition: |horsepower <= 115.0| with info_gain = 0.41639347822997563
+depth:4|-------------------- Split Condition: |mpg <= 19.0| with info_gain = 0.21084230031853213
+depth:5|------------------------- if mpg <= 19.0 == yes --> Classification: 3
+depth:5|------------------------- if mpg <= 19.0 == no --> Classification: 1
+depth:4|-------------------- if horsepower <= 115.0 == no --> Classification: 3
+depth:3|--------------- if weight <= 3003.0 == no --> Classification: 2
+depth:2|---------- if displacement <= 183.0 == no --> Classification: 1
+accuracy_score = 0.7692307692307693
+f1_score = 0.7783706859178557
