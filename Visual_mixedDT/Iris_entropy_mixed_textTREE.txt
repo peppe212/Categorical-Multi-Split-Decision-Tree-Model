@@ -12,21 +12,21 @@ MIN_SAMPLE_SPLIT = 2
 MIN_SAMPLE_LEAF = 1 
 
 Root at depth:0 with Split Condition: |PetalLengthCm <= 1.9| with info_gain = 0.9149263727797274
-depth:1|-------- if PetalLengthCm <= 1.9 == yes --> Classification: Iris-setosa
-depth:1|-------- Split Condition: |PetalWidthCm <= 1.7| with info_gain = 0.6325253077661508
-depth:2|---------------- Split Condition: |PetalLengthCm <= 5.1| with info_gain = 0.1952667279783059
-depth:3|------------------------ Split Condition: |SepalWidthCm <= 2.5| with info_gain = 0.10973196301060684
-depth:4|-------------------------------- Split Condition: |PetalLengthCm <= 4.4| with info_gain = 0.4464393446710155
-depth:5|---------------------------------------- if PetalLengthCm <= 4.4 == yes --> Classification: Iris-versicolor
-depth:5|---------------------------------------- Split Condition: |SepalLengthCm <= 6.0| with info_gain = 0.9182958340544896
-depth:6|------------------------------------------------ if SepalLengthCm <= 6.0 == yes --> Classification: Iris-virginica
-depth:6|------------------------------------------------ if SepalLengthCm <= 6.0 == no --> Classification: Iris-versicolor
-depth:4|-------------------------------- if SepalWidthCm <= 2.5 == no --> Classification: Iris-versicolor
-depth:3|------------------------ if PetalLengthCm <= 5.1 == no --> Classification: Iris-virginica
-depth:2|---------------- Split Condition: |PetalLengthCm <= 4.8| with info_gain = 0.11901271691308317
-depth:3|------------------------ Split Condition: |SepalLengthCm <= 5.9| with info_gain = 0.9182958340544896
-depth:4|-------------------------------- if SepalLengthCm <= 5.9 == yes --> Classification: Iris-versicolor
-depth:4|-------------------------------- if SepalLengthCm <= 5.9 == no --> Classification: Iris-virginica
-depth:3|------------------------ if PetalLengthCm <= 4.8 == no --> Classification: Iris-virginica
+depth:1|----- if PetalLengthCm <= 1.9 == yes --> Classification: Iris-setosa
+depth:1|----- Split Condition: |PetalWidthCm <= 1.7| with info_gain = 0.6325253077661508
+depth:2|---------- Split Condition: |PetalLengthCm <= 5.1| with info_gain = 0.1952667279783059
+depth:3|--------------- Split Condition: |SepalWidthCm <= 2.5| with info_gain = 0.10973196301060684
+depth:4|-------------------- Split Condition: |PetalLengthCm <= 4.4| with info_gain = 0.4464393446710155
+depth:5|------------------------- if PetalLengthCm <= 4.4 == yes --> Classification: Iris-versicolor
+depth:5|------------------------- Split Condition: |SepalLengthCm <= 6.0| with info_gain = 0.9182958340544896
+depth:6|------------------------------- if SepalLengthCm <= 6.0 == yes --> Classification: Iris-virginica
+depth:6|------------------------------- if SepalLengthCm <= 6.0 == no --> Classification: Iris-versicolor
+depth:4|-------------------- if SepalWidthCm <= 2.5 == no --> Classification: Iris-versicolor
+depth:3|--------------- if PetalLengthCm <= 5.1 == no --> Classification: Iris-virginica
+depth:2|---------- Split Condition: |PetalLengthCm <= 4.8| with info_gain = 0.11901271691308317
+depth:3|--------------- Split Condition: |SepalLengthCm <= 5.9| with info_gain = 0.9182958340544896
+depth:4|-------------------- if SepalLengthCm <= 5.9 == yes --> Classification: Iris-versicolor
+depth:4|-------------------- if SepalLengthCm <= 5.9 == no --> Classification: Iris-virginica
+depth:3|--------------- if PetalLengthCm <= 4.8 == no --> Classification: Iris-virginica
 accuracy_score = 0.98
 f1_score = 0.98
