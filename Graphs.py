@@ -200,7 +200,7 @@ def max_depth_varies(couples_list, tree_type_list, criterion_list, tree_mode_lis
                             for tree_type in tree_type_list:
                                 if mss > msl:
                                     _max_depth_varies(couple, tree_type, criterion, mode, bins, mss, msl)
-                                time.sleep(100 / 1000)  # aspetta 100 milli secondi ogni iterazione
+                                time.sleep(10 / 1000)  # aspetta 10 milli secondi ogni iterazione
 
     return
 
@@ -218,7 +218,7 @@ def msl_varies(couples_list, tree_type_list, criterion_list, tree_mode_list, bin
                                     continue
                                 else:
                                     _msl_varies(couple, tree_type, criterion, mode, bins, max_depth, mss)
-                                time.sleep(100 / 1000)  # aspetta 100 milli secondi ogni iterazione
+                                time.sleep(10 / 1000)  # aspetta 10 milli secondi ogni iterazione
 
     return
 
@@ -236,7 +236,7 @@ def mss_varies(couples_list, tree_type_list, criterion_list, tree_mode_list, bin
                                     continue
                                 else:
                                     _mss_varies(couple, tree_type, criterion, mode, bins, max_depth, msl)
-                                time.sleep(100 / 1000)  # aspetta 100 milli secondi ogni iterazione
+                                time.sleep(10 / 1000)  # aspetta 10 milli secondi ogni iterazione
 
     return
 
@@ -247,8 +247,7 @@ def main():
     folder_name = 'Results/'
     #                 prima coppia
     couples_list = [(folder_name + 'Iris_Mixed_DT_result.csv',
-                     folder_name + 'Iris_Sklearn_DT_result.csv')]
-    """
+                     folder_name + 'Iris_Sklearn_DT_result.csv'),
                     # seconda coppia
                     (folder_name + 'breast-cancer_Mixed_DT_result.csv',
                      folder_name + 'breast-cancer_Sklearn_DT_result.csv'),
@@ -276,7 +275,6 @@ def main():
                     # decima coppia
                     (folder_name + 'churn_Mixed_DT_result.csv',
                      folder_name + 'churn_Sklearn_DT_result.csv')]
-    """
 
     tree_type_list = ['MixedDecisionTree', 'SklearnDT']
     tree_mode_list = ['classic', 'median', 'binned']
