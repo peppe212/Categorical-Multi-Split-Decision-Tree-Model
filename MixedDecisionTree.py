@@ -566,7 +566,7 @@ def initial_infos(file):
 def settings() -> tuple:
     # selezionare il file .csv contenente il dataset
     dataset_folder_name = 'Datasets/'
-    dataset_file_name = 'Iris.csv'
+    dataset_file_name = 'prostate.csv'
 
     # qui va inserito il nome della colonna di classificazione (la variabile dipendente Y)
     class_name = 'class'  # il nome di default è class
