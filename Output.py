@@ -1,3 +1,9 @@
+"""
+TESI DI LAUREA IN INFORMATICA PRESSO L'UNIVERSITÀ DI PISA
+@Author: Giuseppe Muschetta
+@Thesis_Supervisor: Professor Riccardo Guidotti
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import re
