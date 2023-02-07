@@ -303,7 +303,7 @@ def mss_varies(tables, graphs, couples_list, tree_type_list, criterion_list, tre
 def main():
     # tramite questi due booleani decido l'ouput che voglio generare:
     tables = False
-    graphs = True
+    graphs = False
     if tables:
         print("- Verranno generate tabelle")
     if graphs:
