@@ -1,6 +1,3 @@
-# MixedDecisionTree
-My Computer Science Bachelor's Thesis: A full Python Implementation of a Categoric, Continuous, Multi-Split, Decision Tree
-
 # What is this all about?
 I made from scratch a full Python implementation of a (machine learning) Decision Tree Classifier with extended capabilities that makes it differ 
 from the one implemented in the famous ml library called Scikit-Learn. 
