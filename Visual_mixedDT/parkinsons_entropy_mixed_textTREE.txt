@@ -1,0 +1,32 @@
+Il file 'Datasets/parkinsons.csv' è stato letto con successo!
+
+L'albero di decisione è stato istanziato con i seguenti parametri:
+MODALITÀ = classic 
+CRITERIO = entropy 
+SOGLIA_DI_TAGLIO = 100000 
+BINS = 20 
+
+Gli iper-parametri per il pruning dell'albero sono:
+MAX_DEPTH = 50 
+MIN_SAMPLE_SPLIT = 2 
+MIN_SAMPLE_LEAF = 1 
+
+Root at depth:0 with Split Condition: |PPE <= 0.133867| with info_gain = 0.43402346720750173
+depth:1|----- Split Condition: |spread2 <= 0.266392| with info_gain = 0.1665489594998521
+depth:2|---------- if spread2 <= 0.266392 == yes --> Classification: healthy
+depth:2|---------- Split Condition: |MDVP:Fo(Hz) <= 126.344| with info_gain = 1.0
+depth:3|--------------- if MDVP:Fo(Hz) <= 126.344 == yes --> Classification: healthy
+depth:3|--------------- if MDVP:Fo(Hz) <= 126.344 == no --> Classification: parkinsons
+depth:1|----- Split Condition: |MDVP:APQ <= 0.01879| with info_gain = 0.29916990797963183
+depth:2|---------- Split Condition: |spread2 <= 0.206768| with info_gain = 0.3796532016694346
+depth:3|--------------- Split Condition: |DFA <= 0.654027| with info_gain = 0.7219280948873623
+depth:4|-------------------- if DFA <= 0.654027 == yes --> Classification: parkinsons
+depth:4|-------------------- if DFA <= 0.654027 == no --> Classification: healthy
+depth:3|--------------- Split Condition: |MDVP:APQ <= 0.01318| with info_gain = 0.28103611255342353
+depth:4|-------------------- Split Condition: |MDVP:Fo(Hz) <= 117.004| with info_gain = 1.0
+depth:5|------------------------- if MDVP:Fo(Hz) <= 117.004 == yes --> Classification: healthy
+depth:5|------------------------- if MDVP:Fo(Hz) <= 117.004 == no --> Classification: parkinsons
+depth:4|-------------------- if MDVP:APQ <= 0.01318 == no --> Classification: parkinsons
+depth:2|---------- if MDVP:APQ <= 0.01879 == no --> Classification: parkinsons
+accuracy_score = 0.7575757575757576
+f1_score = 0.7548821548821549

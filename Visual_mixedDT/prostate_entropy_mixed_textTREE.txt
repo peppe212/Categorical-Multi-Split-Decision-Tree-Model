@@ -1,0 +1,28 @@
+Il file 'Datasets/prostate.csv' è stato letto con successo!
+
+L'albero di decisione è stato istanziato con i seguenti parametri:
+MODALITÀ = classic 
+CRITERIO = entropy 
+SOGLIA_DI_TAGLIO = 100000 
+BINS = 20 
+
+Gli iper-parametri per il pruning dell'albero sono:
+MAX_DEPTH = 50 
+MIN_SAMPLE_SPLIT = 2 
+MIN_SAMPLE_LEAF = 1 
+
+Root at depth:0 with Split Condition: |lcp <= 1.74919985| with info_gain = 0.42173787373883714
+depth:1|----- Split Condition: |lpsa <= 2.9729753| with info_gain = 0.17137929723323853
+depth:2|---------- if lpsa <= 2.9729753 == yes --> Classification: no
+depth:2|---------- Split Condition: |lpsa <= 3.0563569| with info_gain = 0.46691718668869947
+depth:3|--------------- if lpsa <= 3.0563569 == yes --> Classification: si
+depth:3|--------------- Split Condition: |lpsa <= 4.029806| with info_gain = 0.6500224216483541
+depth:4|-------------------- if lpsa <= 4.029806 == yes --> Classification: no
+depth:4|-------------------- if lpsa <= 4.029806 == no --> Classification: si
+depth:1|----- Split Condition: |age <= 57.0| with info_gain = 0.24715018363696709
+depth:2|---------- Split Condition: |age <= 52.0| with info_gain = 1.0
+depth:3|--------------- if age <= 52.0 == yes --> Classification: si
+depth:3|--------------- if age <= 52.0 == no --> Classification: no
+depth:2|---------- if age <= 57.0 == no --> Classification: si
+accuracy_score = 0.8484848484848485
+f1_score = 0.8319559228650137

@@ -1,0 +1,155 @@
+Il file 'Datasets/Sacramento.csv' è stato letto con successo!
+
+L'albero di decisione è stato istanziato con i seguenti parametri:
+MODALITÀ = classic 
+CRITERIO = entropy 
+SOGLIA_DI_TAGLIO = 100000 
+BINS = 20 
+
+Gli iper-parametri per il pruning dell'albero sono:
+MAX_DEPTH = 50 
+MIN_SAMPLE_SPLIT = 2 
+MIN_SAMPLE_LEAF = 1 
+
+Root at depth:0 with Split Condition: |zip| with info_gain = 0.13621191170021746
+depth:1|----- Split Condition: |beds <= 2.0| with info_gain = 0.9182958340544896
+depth:2|---------- if beds <= 2.0 == yes --> Classification: Multi_Family
+depth:2|---------- if beds <= 2.0 == no --> Classification: Residential
+depth:1|----- Split Condition: |sqft <= 1326.0| with info_gain = 0.26215496473804495
+depth:2|---------- Split Condition: |baths <= 1.0| with info_gain = 0.5216406363433185
+depth:3|--------------- if baths <= 1.0 == yes --> Classification: Residential
+depth:3|--------------- Split Condition: |beds <= 3.0| with info_gain = 0.8112781244591328
+depth:4|-------------------- if beds <= 3.0 == yes --> Classification: Condo
+depth:4|-------------------- if beds <= 3.0 == no --> Classification: Residential
+depth:2|---------- if sqft <= 1326.0 == no --> Classification: Residential
+depth:1|----- if zip == z95610 --> Classification: Residential
+depth:1|----- if zip == z95614 --> Classification: Residential
+depth:1|----- if zip == z95619 --> Classification: Residential
+depth:1|----- Split Condition: |sqft <= 795.0| with info_gain = 0.5665095065529053
+depth:2|---------- if sqft <= 795.0 == yes --> Classification: Condo
+depth:2|---------- if sqft <= 795.0 == no --> Classification: Residential
+depth:1|----- if zip == z95623 --> Classification: Residential
+depth:1|----- if zip == z95624 --> Classification: Residential
+depth:1|----- if zip == z95626 --> Classification: Residential
+depth:1|----- Split Condition: |beds <= 2.0| with info_gain = 0.7219280948873623
+depth:2|---------- if beds <= 2.0 == yes --> Classification: Condo
+depth:2|---------- if beds <= 2.0 == no --> Classification: Residential
+depth:1|----- if zip == z95630 --> Classification: Residential
+depth:1|----- if zip == z95632 --> Classification: Residential
+depth:1|----- if zip == z95633 --> Classification: Residential
+depth:1|----- if zip == z95635 --> Classification: Residential
+depth:1|----- Split Condition: |beds <= 1.0| with info_gain = 0.39124356362925566
+depth:2|---------- if beds <= 1.0 == yes --> Classification: Condo
+depth:2|---------- if beds <= 1.0 == no --> Classification: Residential
+depth:1|----- if zip == z95650 --> Classification: Residential
+depth:1|----- if zip == z95660 --> Classification: Residential
+depth:1|----- if zip == z95661 --> Classification: Residential
+depth:1|----- if zip == z95662 --> Classification: Residential
+depth:1|----- if zip == z95663 --> Classification: Residential
+depth:1|----- if zip == z95667 --> Classification: Residential
+depth:1|----- Split Condition: |beds <= 4.0| with info_gain = 0.35335933502142136
+depth:2|---------- if beds <= 4.0 == yes --> Classification: Residential
+depth:2|---------- if beds <= 4.0 == no --> Classification: Multi_Family
+depth:1|----- if zip == z95673 --> Classification: Residential
+depth:1|----- if zip == z95677 --> Classification: Residential
+depth:1|----- Split Condition: |sqft <= 780.0| with info_gain = 0.13943857679540916
+depth:2|---------- if sqft <= 780.0 == yes --> Classification: Condo
+depth:2|---------- Split Condition: |baths <= 2.0| with info_gain = 0.20666957282621734
+depth:3|--------------- Split Condition: |sqft <= 1770.0| with info_gain = 0.2689955935892812
+depth:4|-------------------- if sqft <= 1770.0 == yes --> Classification: Residential
+depth:4|-------------------- Split Condition: |sqft <= 2100.0| with info_gain = 1.0
+depth:5|------------------------- if sqft <= 2100.0 == yes --> Classification: Condo
+depth:5|------------------------- if sqft <= 2100.0 == no --> Classification: Residential
+depth:3|--------------- Split Condition: |beds <= 3.0| with info_gain = 0.9182958340544896
+depth:4|-------------------- if beds <= 3.0 == yes --> Classification: Condo
+depth:4|-------------------- if beds <= 3.0 == no --> Classification: Residential
+depth:1|----- Split Condition: |sqft <= 1005.0| with info_gain = 0.6500224216483541
+depth:2|---------- if sqft <= 1005.0 == yes --> Classification: Condo
+depth:2|---------- if sqft <= 1005.0 == no --> Classification: Residential
+depth:1|----- if zip == z95683 --> Classification: Residential
+depth:1|----- if zip == z95691 --> Classification: Residential
+depth:1|----- if zip == z95693 --> Classification: Residential
+depth:1|----- if zip == z95722 --> Classification: Residential
+depth:1|----- if zip == z95726 --> Classification: Residential
+depth:1|----- if zip == z95742 --> Classification: Residential
+depth:1|----- if zip == z95746 --> Classification: Residential
+depth:1|----- Split Condition: |beds <= 2.0| with info_gain = 0.37123232664087563
+depth:2|---------- if beds <= 2.0 == yes --> Classification: Condo
+depth:2|---------- if beds <= 2.0 == no --> Classification: Residential
+depth:1|----- if zip == z95757 --> Classification: Residential
+depth:1|----- Split Condition: |sqft <= 1039.0| with info_gain = 0.5787946246321198
+depth:2|---------- if sqft <= 1039.0 == yes --> Classification: Condo
+depth:2|---------- if sqft <= 1039.0 == no --> Classification: Residential
+depth:1|----- if zip == z95762 --> Classification: Residential
+depth:1|----- if zip == z95765 --> Classification: Residential
+depth:1|----- if zip == z95811 --> Classification: Residential
+depth:1|----- if zip == z95814 --> Classification: Residential
+depth:1|----- Split Condition: |sqft <= 1316.0| with info_gain = 0.7219280948873623
+depth:2|---------- if sqft <= 1316.0 == yes --> Classification: Residential
+depth:2|---------- if sqft <= 1316.0 == no --> Classification: Multi_Family
+depth:1|----- Split Condition: |sqft <= 1119.0| with info_gain = 0.8112781244591328
+depth:2|---------- if sqft <= 1119.0 == yes --> Classification: Condo
+depth:2|---------- if sqft <= 1119.0 == no --> Classification: Residential
+depth:1|----- if zip == z95817 --> Classification: Residential
+depth:1|----- if zip == z95818 --> Classification: Residential
+depth:1|----- if zip == z95819 --> Classification: Residential
+depth:1|----- if zip == z95820 --> Classification: Residential
+depth:1|----- if zip == z95821 --> Classification: Residential
+depth:1|----- Split Condition: |sqft <= 800.0| with info_gain = 0.3095434291503252
+depth:2|---------- if sqft <= 800.0 == yes --> Classification: Condo
+depth:2|---------- if sqft <= 800.0 == no --> Classification: Residential
+depth:1|----- Split Condition: |price <= 77000.0| with info_gain = 0.09387998331107725
+depth:2|---------- Split Condition: |price <= 68212.0| with info_gain = 0.9182958340544896
+depth:3|--------------- if price <= 68212.0 == yes --> Classification: Residential
+depth:3|--------------- if price <= 68212.0 == no --> Classification: Condo
+depth:2|---------- if price <= 77000.0 == no --> Classification: Residential
+depth:1|----- if zip == z95824 --> Classification: Residential
+depth:1|----- Split Condition: |beds <= 1.0| with info_gain = 0.8812908992306927
+depth:2|---------- if beds <= 1.0 == yes --> Classification: Condo
+depth:2|---------- Split Condition: |sqft <= 1751.0| with info_gain = 0.5916727785823275
+depth:3|--------------- if sqft <= 1751.0 == yes --> Classification: Residential
+depth:3|--------------- if sqft <= 1751.0 == no --> Classification: Multi_Family
+depth:1|----- Split Condition: |beds <= 2.0| with info_gain = 0.8112781244591328
+depth:2|---------- if beds <= 2.0 == yes --> Classification: Condo
+depth:2|---------- if beds <= 2.0 == no --> Classification: Residential
+depth:1|----- if zip == z95827 --> Classification: Residential
+depth:1|----- Split Condition: |baths <= 3.0| with info_gain = 0.2670551309697403
+depth:2|---------- Split Condition: |sqft <= 1810.0| with info_gain = 0.09484775601142387
+depth:3|--------------- if sqft <= 1810.0 == yes --> Classification: Residential
+depth:3|--------------- Split Condition: |sqft <= 1859.0| with info_gain = 0.7219280948873623
+depth:4|-------------------- if sqft <= 1859.0 == yes --> Classification: Multi_Family
+depth:4|-------------------- if sqft <= 1859.0 == no --> Classification: Residential
+depth:2|---------- if baths <= 3.0 == no --> Classification: Multi_Family
+depth:1|----- if zip == z95829 --> Classification: Residential
+depth:1|----- if zip == z95831 --> Classification: Residential
+depth:1|----- if zip == z95832 --> Classification: Residential
+depth:1|----- if zip == z95833 --> Classification: Residential
+depth:1|----- Split Condition: |beds <= 2.0| with info_gain = 0.2025070034547547
+depth:2|---------- Split Condition: |sqft <= 1250.0| with info_gain = 0.9182958340544896
+depth:3|--------------- if sqft <= 1250.0 == yes --> Classification: Condo
+depth:3|--------------- if sqft <= 1250.0 == no --> Classification: Residential
+depth:2|---------- Split Condition: |price <= 247000.0| with info_gain = 0.09335036636207972
+depth:3|--------------- if price <= 247000.0 == yes --> Classification: Residential
+depth:3|--------------- Split Condition: |price <= 265000.0| with info_gain = 0.6500224216483541
+depth:4|-------------------- if price <= 265000.0 == yes --> Classification: Condo
+depth:4|-------------------- if price <= 265000.0 == no --> Classification: Residential
+depth:1|----- Split Condition: |price <= 152000.0| with info_gain = 0.4262286569981449
+depth:2|---------- if price <= 152000.0 == yes --> Classification: Condo
+depth:2|---------- if price <= 152000.0 == no --> Classification: Residential
+depth:1|----- if zip == z95838 --> Classification: Residential
+depth:1|----- Split Condition: |beds <= 2.0| with info_gain = 0.9709505944546686
+depth:2|---------- if beds <= 2.0 == yes --> Classification: Condo
+depth:2|---------- if beds <= 2.0 == no --> Classification: Residential
+depth:1|----- Split Condition: |price <= 62000.0| with info_gain = 0.5435644431995964
+depth:2|---------- if price <= 62000.0 == yes --> Classification: Condo
+depth:2|---------- Split Condition: |sqft <= 1712.0| with info_gain = 0.22837518378373278
+depth:3|--------------- if sqft <= 1712.0 == yes --> Classification: Residential
+depth:3|--------------- Split Condition: |sqft <= 1943.0| with info_gain = 1.0
+depth:4|-------------------- if sqft <= 1943.0 == yes --> Classification: Multi_Family
+depth:4|-------------------- if sqft <= 1943.0 == no --> Classification: Residential
+depth:1|----- Split Condition: |sqft <= 836.0| with info_gain = 0.23519338181924143
+depth:2|---------- if sqft <= 836.0 == yes --> Classification: Condo
+depth:2|---------- if sqft <= 836.0 == no --> Classification: Residential
+depth:1|----- if zip == z95864 --> Classification: Residential
+accuracy_score = 0.9318181818181818
+f1_score = 0.922017354270668
