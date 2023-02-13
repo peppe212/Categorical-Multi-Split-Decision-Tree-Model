@@ -1,5 +1,5 @@
 # What is this all about?
-I made from scratch a full Python implementation of a (machine learning) Decision Tree Classifier with extended capabilities that makes it differ 
+I developed from scratch a full Python implementation of a (machine learning) Decision Tree Classifier with extended capabilities that makes it differ 
 from the one implemented in the famous ml library called Scikit-Learn. 
 My own Decision Tree can get as input a dataset with any kind of attribute, both categoric and continuous. 
 It also supports multi-split nodes, which is the real deal, in fact, this tree has been programmed from with this 
