@@ -1,7 +1,7 @@
 """
 TESI DI LAUREA IN INFORMATICA PRESSO L'UNIVERSITÀ DI PISA
 @Author: Giuseppe Muschetta
-@Thesis_Supervisor: Professor Riccardo Guidotti
+@Thesis_Supervisor: Prof. Riccardo Guidotti
 @Libraries: Pandas 1.4.4
             MatPlotLib 3.5.2
             Sklearn 1.1.1
