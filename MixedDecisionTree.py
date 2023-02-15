@@ -2,6 +2,9 @@
 TESI DI LAUREA IN INFORMATICA PRESSO L'UNIVERSITÀ DI PISA
 @Author: Giuseppe Muschetta
 @Thesis_Supervisor: Professor Riccardo Guidotti
+@Libraries: Pandas 1.4.4
+            Numpy 1.21.5
+            Sklearn 1.1.1
 """
 
 # importante per distinguere gli attributi continui: float da quelli categorici: stringhe object

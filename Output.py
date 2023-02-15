@@ -2,6 +2,8 @@
 TESI DI LAUREA IN INFORMATICA PRESSO L'UNIVERSITÀ DI PISA
 @Author: Giuseppe Muschetta
 @Thesis_Supervisor: Professor Riccardo Guidotti
+@Libraries: Pandas 1.4.4
+            MatPlotLib 3.5.2
 """
 
 import pandas as pd

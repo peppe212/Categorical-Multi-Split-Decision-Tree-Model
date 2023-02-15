@@ -2,6 +2,8 @@
 TESI DI LAUREA IN INFORMATICA PRESSO L'UNIVERSITÀ DI PISA
 @Author: Giuseppe Muschetta
 @Thesis_Supervisor: Professor Riccardo Guidotti
+@Libraries: Pandas 1.4.4
+            Sklearn 1.1.1
 """
 
 import time
