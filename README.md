@@ -106,9 +106,3 @@ The script will:
 * Generate a text file (e.g., `visual_mixedDT/prostate_entropy_mixed_textTREE.txt`) visualizing the structure of the trained decision tree.
 
 ---
-
-## License
-
-[MIT License](LICENSE) (or other appropriate license)
-
----
